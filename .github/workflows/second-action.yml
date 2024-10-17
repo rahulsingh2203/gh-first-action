@@ -1,0 +1,15 @@
+name: Second Workflow
+on: workflow_dispatch
+jobs:
+  executing-multi-line-command-workflow:
+    runs-on: ubuntu
+    steps:
+      - name: greeting
+        run: echo "Hello user"
+      - name: multi line commands
+        run: |
+            echo "This"
+            echo "is"
+            echo "a"
+            echo "multi line"
+            echo "command"
