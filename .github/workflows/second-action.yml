@@ -4,12 +4,12 @@ jobs:
   executing-multi-line-command-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: greeting
+      - name: Greeting
         run: echo "Hello user"
-      - name: multi line commands
+      - name: Multi-line Commands
         run: |
-            echo "This"
-            echo "is"
-            echo "a"
-            echo "multi line"
-            echo "command"
+          echo "This"
+          echo "is"
+          echo "a"
+          echo "multi line"
+          echo "command"
